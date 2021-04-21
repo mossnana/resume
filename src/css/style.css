@@ -1318,7 +1318,7 @@ h5.tittle {
 	float: left;
 }
 .about-me .personal-info li span {
-	width: 50%;
+	width: 35%;
 	float: left;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -2328,7 +2328,7 @@ Main components
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	right: 1em;
-	background: url("../img/cd-arrow.svg") no-repeat center center;
+	background: black no-repeat center center;
 	background-size: 8px 11px;
 	-webkit-transition-property: -webkit-transform;
 	-moz-transition-property: -moz-transform;
@@ -2357,7 +2357,6 @@ Main components
 	width: 32px;
 	float: left;
 	padding: 0;
-	background-image: url("../img/cd-socials.svg");
 	background-repeat: no-repeat;
 	background-size: 128px 64px;
 	background-color: #FFF;
@@ -2858,7 +2857,7 @@ blockquote {
 #content {
 }
 #content.bg {
-	background: url(../images/parallax-bg.jpg) fixed center top no-repeat;
+	background: black fixed center top no-repeat;
 	display: inline-block;
 	width: 100%;
 	padding-top: 100px;

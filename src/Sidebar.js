@@ -13,25 +13,16 @@ class Sidebar extends Component {
               <p> <span> Name</span> Permpoon Chao </p>
             </li>
             <li>
-              <p> <span> Age</span> 25 Years </p>
+              <p> <span> Location</span> Bangkok </p>
             </li>
             <li>
-              <p> <span> Location</span> BKK, Thailand </p>
+              <p> <span> Experience</span> 2 Years </p>
             </li>
             <li>
-              <p> <span> Experience</span> 1 Years </p>
+              <p> <span> Degree</span> MSc. </p>
             </li>
             <li>
-              <p> <span> Degree</span> BSc </p>
-            </li>
-            <li>
-              <p> <span> Career Level</span> Beginner-Level </p>
-            </li>
-            <li>
-              <p> <span> Phone</span> (080) 677-5134 </p>
-            </li>
-            <li>
-              <p> <span> E-mail</span> <a href="#."> samurai.hanso@gmail.com</a> </p>
+              <p> <span> Career Level</span> Beginner </p>
             </li>
             <li>
               <p> <span> Github</span><a href="https://github.com/mossnana"> mossnana</a></p>
@@ -41,7 +32,7 @@ class Sidebar extends Component {
           <div className="attach bor-btm padding-25">
             <ul>
               <li>
-                <p><img src="https://i.imgur.com/ldgHfAU.jpg" alt="" /> My Official Resume.pdf <a href="https://drive.google.com/file/d/1Tbb_MhCD0ZRcHV8H5nnLzH_-bkds63Ed"><i className="fas fa-cloud-download-alt social-mystyle"></i></a> <a href="https://drive.google.com/file/d/1Tbb_MhCD0ZRcHV8H5nnLzH_-bkds63Ed"><i className="fas fa-eye social-mystyle"></i></a></p>
+                <p><img src="https://i.imgur.com/ldgHfAU.jpg" alt="" /> My Official Resume.pdf <a href="https://drive.google.com/file/d/1Tbb_MhCD0ZRcHV8H5nnLzH_-bkds63Ed"><i className="fas fa-eye social-mystyle"></i></a></p>
               </li>
             </ul>
           </div>

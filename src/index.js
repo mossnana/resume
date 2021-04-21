@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Components Routing
 import App from './App';
 import About from './sections/About';
@@ -16,14 +16,14 @@ import './css/responsive.css';
 import './css/font-awesome-animation.min.css';
 
 render(
-  <Router>
-      <div>
+  <Router basename="/">
+      <Switch>
         <Route exact path='/' component={App} />
         <Route path='/about' component={About} />
         <Route path='/resume' component={Resume} />
         <Route path='/blog' component={Blog} />
         <Route path='/contact' component={Contact} />
-      </div>
+      </Switch>
   </Router>,
   document.getElementById('root')
 );
